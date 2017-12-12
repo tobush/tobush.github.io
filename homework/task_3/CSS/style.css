@@ -1,6 +1,7 @@
 body {
     background-color: #000000;
 }
+
 #main-container {
     width: 305px;
     height: 305px;
@@ -40,19 +41,19 @@ body {
 
 #sfour {
     top: 105px;
-     background-color: #FFFF00;
+    background-color: #FFFF00;
 }
 
 #sfive {
     top: 105px;
     left: 105px;
-     background-color: #000000;
+    background-color: #000000;
 }
 
 #ssix {
     top: 105px;
     left: 205px;
-     background-color: #FFA500;
+    background-color: #FFA500;
 }
 
 #sseven {
@@ -63,7 +64,7 @@ body {
 #seight {
     top: 205px;
     left: 105px;
-     background-color: #808080;
+    background-color: #808080;
 }
 
 #snine {
@@ -82,7 +83,7 @@ body {
 
 #cfour {
     background-color: #008000;
-} 
+}
 
 #cfive {
     background-color: #FF0000;
@@ -103,5 +104,3 @@ body {
 #cnine {
     background-color: #000000;
 }
-
-
