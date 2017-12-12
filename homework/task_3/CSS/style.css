@@ -1,0 +1,107 @@
+body {
+    background-color: #000000;
+}
+#main-container {
+    width: 305px;
+    height: 305px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.square {
+    width: 95px;
+    height: 95px;
+    position: absolute;
+    background-color: #FF0000;
+    left: 5px;
+    top: 5px;
+}
+
+.circle {
+    border-radius: 50%;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: #FFC0CB;
+    top: 24%;
+    left: 24%;
+    border: 1px solid;
+}
+
+#stwo {
+    left: 105px;
+    background-color: #0000FF;
+}
+
+#sthree {
+    left: 205px;
+    background-color: #008000;
+}
+
+#sfour {
+    top: 105px;
+     background-color: #FFFF00;
+}
+
+#sfive {
+    top: 105px;
+    left: 105px;
+     background-color: #000000;
+}
+
+#ssix {
+    top: 105px;
+    left: 205px;
+     background-color: #FFA500;
+}
+
+#sseven {
+    top: 205px;
+    background-color: #9400D3;
+}
+
+#seight {
+    top: 205px;
+    left: 105px;
+     background-color: #808080;
+}
+
+#snine {
+    top: 205px;
+    left: 205px;
+    background-color: #FFC0CB;
+}
+
+#ctwo {
+    background-color: #808080;
+}
+
+#cthree {
+    background-color: #9400D3;
+}
+
+#cfour {
+    background-color: #008000;
+} 
+
+#cfive {
+    background-color: #FF0000;
+}
+
+#csix {
+    background-color: #0000FF;
+}
+
+#cseven {
+    background-color: #FFA500;
+}
+
+#ceight {
+    background-color: #FFFF00;
+}
+
+#cnine {
+    background-color: #000000;
+}
+
+
