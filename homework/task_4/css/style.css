@@ -1,0 +1,38 @@
+header {
+    color: #003366;
+}
+
+#main-container > h2 {
+    font-style: italic;
+    color: #6e768e;
+}
+
+section {
+    width: 730px;
+}
+
+p.input-one {
+    margin-left: 50px;
+}
+
+.input-onei {
+    width: 300px;
+}
+
+p.input-two {
+    display: inline-block;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+#books {
+    width: 300px;
+}
+
+#quantity {
+    right: 0;
+}
+
+#submit {
+    margin-left: 1px;
+}

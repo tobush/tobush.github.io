@@ -1,32 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>HTML forms advanced</title>
 </head>
+
 <body>
-<header>
-    <h1>A Simple Form</h1>
-    <p>Form Fundamentals</p>
-</header>
-  <section>
-      <p>Customer Info</p>
-      <label for="name">Name</label>
-      <input type="text" id="name" class="input-one"> 
-      <br /><br />
-      <label for="phone">Telephone</label>
-      <input type="number" id="phone" class="input-one">
-      <br /><br />
-      <label for="email">Email address</label>
-      <input type="email" id="email" class="input-one">
-      <br /><br />
-  </section>
-   
-   <footer>
-       <label for=""></label>
-   </footer>
-   
-    
+    <header>
+        <h1>A Simple Form</h1>
+    </header>
+    <section id="main-container">
+        <h2>Form Fundamentals</h2>
+        <form action="https://formspree.io/tobush@ukr.net" method="post">
+            <fieldset>
+                <legend>Customer information</legend>
+                <p class="input-one">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" autocomplete="on" class="input-onei" placeholder="Enter your name" name="Name" required>
+                </p>
+                <p class="input-one">
+                    <label for="phone">Telephone</label>
+                    <input type="tel" id="phone" class="input-onei" autocomplete="on" placeholder="1-234-567-8910" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" name="Surname" required>
+                </p>
+                <p class="input-one">
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" class="input-onei" autocomplete="on" placeholder="Enter your email address" multiple="" name="E-mail Addresses" required>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Books</legend>
+                <p class="input-two">
+                    <input type="text" id="books" value="Book1, Book2, Book3, Book4, Book5" name="Books">
+                    <label for="quantity">Quantity (Maximum 5)</label>
+                    <input type="number" id="quantity" max="5" name="Quantity">
+                </p>
+            </fieldset>
+            <br />
+            <input type="submit" id="submit" value="Submit">
+        </form>
+    </section>
+
 </body>
+
 </html>
