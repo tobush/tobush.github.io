@@ -32,13 +32,14 @@
             <fieldset>
                 <legend>Books</legend>
                 <p class="input-two">
-                   <select name="Books" id="books">
-                       <option value="Part One">Part One</option>
-                       <option value="Part Two">Part Two</option>
-                       <option value="Part Three">Part Three</option>
-                       <option value="Part Four">Part Four</option>
-                       <option value="Part Five">Part Five</option>
-                   </select>
+                    <input list="books">
+                        <datalist id="browsers" name="Books">
+                          <option value="Part One">
+                          <option value="Part Two">
+                          <option value="Part Three">
+                          <option value="Part Four">
+                          <option value="Part Five">
+                        </datalist>
                     <label for="quantity">Quantity (Maximum 5)</label>
                     <input type="number" id="quantity" max="5" name="Quantity">
                 </p>
