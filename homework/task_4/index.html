@@ -13,26 +13,32 @@
     </header>
     <section id="main-container">
         <h2>Form Fundamentals</h2>
-        <form action="https://formspree.io/tobush@ukr.net" method="post">
+        <form action="https://formspree.io/tobush@ukr.net" method="post" autocomplete="on">
             <fieldset>
                 <legend>Customer information</legend>
                 <p class="input-one">
                     <label for="name">Name</label>
-                    <input type="text" id="name" autocomplete="on" class="input-onei" placeholder="Enter your name" name="Name" required>
+                    <input type="text" id="name" class="input-onei" placeholder="Enter your name" name="Name" autofocus required>
                 </p>
                 <p class="input-one">
                     <label for="phone">Telephone</label>
-                    <input type="tel" id="phone" class="input-onei" autocomplete="on" placeholder="1-234-567-8910" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" name="Telephone" required>
+                    <input type="tel" id="phone" class="input-onei" placeholder="1-234-567-8910" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" name="Telephone" required>
                 </p>
                 <p class="input-one">
                     <label for="email">Email address</label>
-                    <input type="email" id="email" class="input-onei" autocomplete="on" placeholder="Enter your email address" multiple="" name="E-mail Addresses" required>
+                    <input type="email" id="email" class="input-onei" placeholder="Enter your email address" name="E-mail Addresses" multiple required>
                 </p>
             </fieldset>
             <fieldset>
                 <legend>Books</legend>
                 <p class="input-two">
-                    <input type="text" id="books" value="Book1, Book2, Book3, Book4, Book5" name="Books">
+                   <select name="Books" id="books">
+                       <option value="Part One">Part One</option>
+                       <option value="Part Two">Part Two</option>
+                       <option value="Part Three">Part Three</option>
+                       <option value="Part Four">Part Four</option>
+                       <option value="Part Five">Part Five</option>
+                   </select>
                     <label for="quantity">Quantity (Maximum 5)</label>
                     <input type="number" id="quantity" max="5" name="Quantity">
                 </p>
