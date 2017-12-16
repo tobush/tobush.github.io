@@ -30,3 +30,17 @@
 .elementy-display-none {
     display: none;
 }
+
+.elementy-inline-block li:hover .sp1 {
+    display: none;
+}
+
+.elementy-inline-block .sp2 {
+    display: none;
+}
+
+.elementy-inline-block li:hover .sp2 {
+    display: inline;
+}
+
+
