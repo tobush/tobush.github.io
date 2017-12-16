@@ -1,0 +1,32 @@
+.elementy-blokowe .p1 {
+    background-color: aqua;
+}
+
+.elementy-blokowe .p2 {
+    background-color: bisque;
+}
+
+.elementy-liniowe .inline-p1 {
+    background-color: brown;
+}
+
+.elementy-liniowe .inline-p2 {
+    background-color: cornflowerblue;
+}
+
+.elementy-liniowe p {
+    display: inline;
+}
+
+.elementy-inline-block li {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 10px;
+    border: red 2px solid;
+}
+
+.elementy-display-none {
+    display: none;
+}
