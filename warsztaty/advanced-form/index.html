@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="https://formspree.io/your@email.com" method="post">
+        <label for="name">Imię:</label>
+        <input type="text" id="name">
+        <label for="surname">Nazwisko:</label>
+        <input type="text" id="surname">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email">
+        <label for="phone">Telefon:</label>
+        <input type="tel" id="phone">
+        <label for="city">Wybierz miasto:</label>
+        <select name="miasto" id="city">
+            <option value="Warszawa">Warszawa</option>
+            <option value="Kraków">Kraków</option>
+            <option value="Gdańsk">Gdańsk</option>
+        </select>
+        <label>Wybierz płeć:</label>
+        <input type="radio" id="man" name="select">Mężczyzna
+        <br>
+        <input type="radio" id="woman" name="select">Kobieta
+        <label for="message">Wiadomość</label>
+        <textarea name="Wiadomość" id="message" cols="30" rows="10"></textarea>
+        <br>
+        <input type="checkbox" id="check">
+        <label for="check">Wyrażam zgodę na przetwarzanie danych osobowych</label>
+        <br>
+        <input type="submit" value="SEND">
+    </form>
+</body>
+</html>

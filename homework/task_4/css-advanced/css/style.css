@@ -9,3 +9,11 @@ div[detaliczny$="tak"] {
 div[detaliczny="tak"] {
     color: yellow;
 }
+
+.pass {
+height: 25px;
+}
+
+.pass[typ="tajne"] {
+    height: 40px;
+}
