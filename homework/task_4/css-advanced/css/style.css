@@ -1,0 +1,11 @@
+div[type="vip"] {
+    color: red;
+}
+
+div[detaliczny$="tak"] {
+    color: green;
+}
+
+div[detaliczny="tak"] {
+    color: yellow;
+}
