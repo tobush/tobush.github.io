@@ -1,0 +1,21 @@
+img {
+    width: 100px;
+    height: 100px;
+}
+
+img.port1 {
+    background-image: url("/transition/img/header-background.jpg");
+    display: block;
+    -webkit-transition: background-image 3s ease-in 2s;
+    -moz-transition: background-image 3s ease-in 2s;
+    transition: background-image 3s ease-in 2s;
+}
+
+img.port1:hover {
+    background-image: url("/transition/img/Space_Double_galaxy_with_a_black_hole_in_the_center_095968_.jpg");
+}
+
+img.port2 {
+    background-image: url("/transition/img/Space_Double_galaxy_with_a_black_hole_in_the_center_095968_.jpg");
+    
+}

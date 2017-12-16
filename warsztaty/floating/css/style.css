@@ -1,0 +1,28 @@
+img {
+    width: 100px;
+    height: 100px;
+}
+
+p {
+    text-align: justify;
+}
+
+img.port1 {
+    width:100px;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+img.port2 {
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-left: 10px;
+}
+
+p:last-child {
+    background-color: aquamarine;
+    clear: both;
+}
+
