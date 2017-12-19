@@ -15,10 +15,13 @@
 @media screen and (min-width: 993px) and (max-width: 1170px) {
     img {
         height: 70%;
+        position: relative;
     }
     
     .p1 {
         text-align: right;
         color: #fff;
+        position: absolute;
+        margin-top: 20px;
     } 
 }
