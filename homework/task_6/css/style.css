@@ -1,32 +1,32 @@
 body {
-  margin: 0;
-  font-family: Verdana, Sans-Serif;
-  color: #fff;
+    margin: 0;
+    font-family: Verdana, Sans-Serif;
+    color: #fff;
 }
 
 #background {
-position: relative;
-background-image: url('../img/man-1.jpg');
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-height:100%;
-width:100%;
+    position: relative;
+    background-image: url('../img/man-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
 
 h1 {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 span {
-  text-transform: uppercase; 
-  font-weight: 550;
-  font-size: 49px;
-  margin: 0;
+    text-transform: uppercase;
+    font-weight: 550;
+    font-size: 49px;
+    margin: 0;
 }
 
 #header-content {
-  position: absolute;
-  top: 35%;
-  padding: 30px;
+    position: absolute;
+    top: 35%;
+    padding: 30px;
 }
