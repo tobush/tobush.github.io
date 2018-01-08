@@ -12,6 +12,7 @@
     #header-content {
         position: static;
     }
+    
     #header-content h1 {
         text-align: center;
         color: black;
@@ -28,9 +29,9 @@
 
 @media screen and (min-width: 993px) and (max-width:1170px) {
     #background {
-        position: relative;
+        position: absolute;
         background-image: url('../img/man-2.jpg');
-        background-position: center;
+        background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
         height: 70%;
@@ -40,13 +41,15 @@
     #header-content {
         position: absolute;
         right: 0;
-        top: 10%;
-        padding-right: 60px;
+        top: 0;
+        padding-right: 30px;
+        margin: 0;
 
     }
     #header-content h1 {
         font-size: 20px;
     }
+    
     #header-content span {
         font-size: 30px;
     }
