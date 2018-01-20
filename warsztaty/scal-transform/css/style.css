@@ -1,0 +1,17 @@
+.animation-example img {
+    animation-name: name;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes name {
+    0%, 100% {
+        width: 200px;
+        height: 200px;
+    }
+    
+    50% {
+        width: 500px;
+        height: 500px;
+    }
+}
